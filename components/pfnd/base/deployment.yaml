@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: pfnd
     spec:
       containers:
-      - image: java-quarkus-image:latest
+      - image: quay.io/redhat-appstudio-qe/byoc-rnom-tenant/byoc-app-rmoc/pfnd@sha256:53a470a48de31f41ebb114a7453f07eb7e0c48db4ca537c0619122108ecf36fe
         name: my-java-quarkus
         ports:
         - containerPort: 8081
